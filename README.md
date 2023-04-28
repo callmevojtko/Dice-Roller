@@ -1,9 +1,8 @@
-# Brian's Dice Roller
+<h1 align="center">Brian's Dice Roller</h1>
 
-![Dice Roller App Screenshot](screenshots/screenshot1.png)
-![Dice Roller App Screenshot](screenshots/screenshot2.png)
+<img src="screenshot2.png" alt="Dice Roller App Screenshot" width="600"> <img src="screenshot1.png" alt="Dice Roller App Screenshot" width="600">
 
-Dice Roller App is a simple yet stylish web application that allows users to roll dice by selecting the number of dice they want to roll using buttons designed to look like dice.
+Dice Roller App is a simple yet stylish web app that allows users to roll dice by selecting the number of dice they want to roll using buttons designed to look like dice.
 
 ## Table of Contents
 
