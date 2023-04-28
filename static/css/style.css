@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.dice {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-size: cover;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    10% { transform: translate(-5px, 5px) rotate(-5deg); }
+    20% { transform: translate(5px, -5px) rotate(5deg); }
+    30% { transform: translate(-5px, 5px) rotate(-5deg); }
+    40% { transform: translate(5px, -5px) rotate(5deg); }
+    50% { transform: translate(-5px, 5px) rotate(-5deg); }
+    60% { transform: translate(5px, -5px) rotate(5deg); }
+    70% { transform: translate(-5px, 5px) rotate(-5deg); }
+    80% { transform: translate(5px, -5px) rotate(5deg); }
+    90% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+}
+
+#container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #3d7fe6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d6fe6;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.die-button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: #000;
+}
+
+.die-button:hover {
+    background-color: #f0f0f0;
+}
